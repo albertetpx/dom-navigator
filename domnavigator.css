@@ -1,0 +1,73 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h4{
+    margin-top: 2vh;
+    margin-left:10vw;
+    margin-bottom:1vh;
+ }
+
+label#labelModoCasilla{
+    margin-left:8vw;
+}
+
+label#labelModoFila, label#labelModoCol{
+    margin-left:4vw;
+}
+
+ input[type="radio"]{
+    margin-bottom:1.5vh;
+ }
+
+#tablero{
+    margin-left:5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25vh;
+}
+
+.linea{
+    display: flex;
+    gap: 0.25vw;
+    margin:0;
+    padding: 0;
+}
+
+.casilla{
+    display: inline-flex;
+    column-gap: 0.25vw;
+    border: solid 2px black;
+    height: 10vh;
+    width: 10vw;
+    background-color: lightblue;
+    margin:0;
+    padding:0;
+}
+
+.casillaMovil{
+    background-color: blue;
+}
+
+.casillaCreada{
+    display: flex;
+    border: dashed 1px black;
+    height: 100%;
+    width: 50%;
+    background-color: lightblue;
+    margin:0;
+    padding:0;
+}
+
+.casillaSel{
+    background-color: orangered;
+}
+
+#nodePath{
+    margin-left: 5vh;
+}
